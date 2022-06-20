@@ -225,7 +225,7 @@
                 <tr>
                   <td>{{.Name}}</td>
                   <td><a href="#{{.FullType}}">{{.LongType}}</a></td>
-                  <td>{{.Label}}</td>
+                  <td>{{.Label}}<br />{{range $key,$val := .Options}}{{$key}}={{$val}}<br />{{end}}</td>
                   <td><p>{{if (index .Options "deprecated"|default false)}}<strong>Deprecated.</strong> {{end}}{{.Description}} {{if .DefaultValue}}Default: {{.DefaultValue}}{{end}}</p></td>
                 </tr>
               {{end}}

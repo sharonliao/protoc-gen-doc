@@ -12,7 +12,6 @@ require (
 	github.com/huandu/xstrings v1.0.0 // indirect
 	github.com/imdario/mergo v0.3.4 // indirect
 	github.com/mwitkow/go-proto-validators v0.0.0-20180403085117-0950a7990007
-	github.com/pseudomuto/protoc-gen-doc v0.0.0-00010101000000-000000000000
 	github.com/pseudomuto/protokit v0.2.0
 	github.com/stretchr/testify v1.6.1
 	google.golang.org/genproto v0.0.0-20210917145530-b395a37504d4
